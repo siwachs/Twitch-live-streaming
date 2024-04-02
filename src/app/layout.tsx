@@ -21,7 +21,13 @@ export default function RootLayout({
     <ClerkProvider appearance={{ baseTheme: dark }}>
       <html lang="en">
         <body className={inter.className}>
-          <ThemeProvider>{children}</ThemeProvider>
+          <ThemeProvider
+            attribute="class"
+            forcedTheme="dark"
+            storageKey="twitch-clone-key"
+          >
+            {children}
+          </ThemeProvider>
         </body>
       </html>
     </ClerkProvider>
