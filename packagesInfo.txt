@@ -8,5 +8,5 @@ rochaccountAC
 
 DB Cluster -> twitch-clone
 
-User-> twitch
+twitch
 sxl2n879PcqijXwIK05mmA

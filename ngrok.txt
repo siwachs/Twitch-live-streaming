@@ -1,0 +1,7 @@
+snap install ngrok
+ngrok
+
+add auth Token -> Create account
+
+ngrok config add-authtoken token
+ngrok http 3000

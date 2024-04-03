@@ -1,0 +1,8 @@
+Sync schema with DB
+npx prisma db push
+
+Add model to Local Env
+npx prisma generate
+
+Run prisma GUI
+npx prisma studio
